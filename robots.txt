@@ -1,0 +1,36 @@
+User-agent: Googlebot
+Allow: /
+User-agent:Yeti
+Allow: /
+User-agent:Naverbot
+Allow: /
+User-agent:AdsBot-Naver
+AdsBot-Naver: /
+User-agent:Daum
+Allow: /
+User-agent:Daumoa
+Allow: /
+User-agent:Msnbot
+Allow: /
+User-agent:Bingbot
+Allow: /
+
+User-agent:Yahoo!Slurp
+Disallow: /
+User-agent:PetalBot
+Disallow: /
+User-agent:MJ12bot
+Disallow: /
+User-agent:YandexBot
+Disallow: /
+User-agent:IndeedBot
+Disallow: /
+
+User-agent: *
+Disallow: /manager/
+Disallow: /lib/
+Disallow: /data/
+Disallow: /img/
+Disallow: /js/
+Disallow: /setting/
+Crawl-delay: 60
